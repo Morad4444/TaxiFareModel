@@ -1,0 +1,15 @@
+artifact_uri: file:///home/morad/code/Morad4444/TaxiFareModel/mlruns/1/0f8101c4d38344b0b2a10b891ee39f21/artifacts
+end_time: null
+entry_point_name: ''
+experiment_id: '1'
+lifecycle_stage: active
+name: ''
+run_id: 0f8101c4d38344b0b2a10b891ee39f21
+run_uuid: 0f8101c4d38344b0b2a10b891ee39f21
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1645530019732
+status: 1
+tags: []
+user_id: unknown

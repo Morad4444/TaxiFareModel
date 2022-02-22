@@ -21,6 +21,7 @@ def clean_data(df, test=False):
     df = df[df["pickup_longitude"].between(left=-74.3, right=-72.9)]
     df = df[df["dropoff_latitude"].between(left=40, right=42)]
     df = df[df["dropoff_longitude"].between(left=-74, right=-72.9)]
+    df['fare_amount_catagory'] = df['fare_amount'].apply(lambda x: 1 if x > 8.5 else 0 )
     return df
 
 
